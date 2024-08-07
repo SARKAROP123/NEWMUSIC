@@ -3,7 +3,6 @@ aiohttp
 asyncio
 beautifulsoup4
 dnspython
-youtube_dl==2020.12.17
 ffmpeg-python
 gitpython
 hachoir
