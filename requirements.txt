@@ -3,6 +3,7 @@ aiohttp
 asyncio
 beautifulsoup4
 dnspython
+youtube_dl==2020.12.17
 ffmpeg-python
 gitpython
 hachoir
@@ -20,6 +21,6 @@ speedtest-cli
 spotipy
 tgcrypto
 unidecode
-yt-dlp @ git+https://github.com/SARKAROP123/NEWMUSIC
+yt-dlp==2024.8.9
 youtube-search
 youtube-search-python
