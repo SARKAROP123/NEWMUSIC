@@ -20,6 +20,6 @@ speedtest-cli
 spotipy
 tgcrypto
 unidecode
-yt-dlp @ git+https://github.com/SARKAROP123/yt-dp-fork
+yt-dlp @ git+https://github.com/SARKAROP123/NEWMUSIC
 youtube-search
 youtube-search-python
