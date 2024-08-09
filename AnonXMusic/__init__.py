@@ -1,4 +1,4 @@
-from AnonXMusic.core.bot import Hotty
+from AnonXMusic.core.bot import Anony
 from AnonXMusic.core.dir import dirr
 from AnonXMusic.core.git import git
 from AnonXMusic.core.userbot import Userbot
@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = Hotty()
+app = Anony()
 userbot = Userbot()
 api = SafoneAPI()
 
