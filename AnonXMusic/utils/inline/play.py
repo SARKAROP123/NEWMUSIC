@@ -66,6 +66,14 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
+        [
+            InlineKeyboardButton(
+                text="𝖮𝗐𝗇𝖾𝗋", url="https://t.me/ll_SARKAR_MERA_BABU_ll",
+            ),
+            InlineKeyboardButton(
+                text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url="https://t.me/TG_NAME_STYLE",
+            ),
+        ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -79,6 +87,14 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+        ],
+        [
+            InlineKeyboardButton(
+                text="𝖮𝗐𝗇𝖾𝗋", url="https://t.me/ll_SARKAR_MERA_BABU_ll",
+            ),
+            InlineKeyboardButton(
+                text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url="https://t.me/TG_NAME_STYLE",
+            ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
